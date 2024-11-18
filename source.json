@@ -1,7 +1,7 @@
 {
     "name":"Emymin's VPM Repository",
     "id":"net.emymin.vpm",
-    "url":"https://emymin.net/vpm/index.json",
+    "url":"https://emymin.net/vpm-listing/index.json",
     "author":{
         "name":"emymin",
         "url":"https://emymin.net"
@@ -11,8 +11,15 @@
         "url":"https://github.com/emymin/vpm-listing",
         "text":"View on GitHub"
     },
-    "bannerUrl":"",
-    "githubRepos":[
-        "emymin/EmyChess"
+    "bannerUrl":"https://emymin.net/assets/svg/lily.svg",
+    "githubRepos":[],
+    "packages":[
+        {
+            "name":"com.emymin.emychess",
+            "releases":[
+                "https://github.com/emymin/EmyChess/releases/download/0.1.3/com.emymin.emychess-0.1.3.zip",
+                "https://github.com/emymin/EmyChess/releases/download/0.1.2/com.emymin.emychess-0.1.2.zip"
+            ]
+        }
     ]
 }
